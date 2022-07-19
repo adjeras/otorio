@@ -17,6 +17,5 @@ else
   done
 fi
 #) | xargs docker run --shm-size=1gb -v `pwd`:/tmp/screenshot docker_capture_web  ## working
-#) | xargs docker run -v `pwd`:/tmp/screenshot mokemokechicken/capture_web
 #) | xargs docker run -v `pwd`:/tmp/screenshot docker_capture_web_otorio
 #) | xargs docker run --shm-size=1gb -v `pwd`:/tmp/screenshot docker_capture_web_otorio

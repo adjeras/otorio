@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-Name=mokemokechicken/capture_web
+Name=adjeras/docker_capture_web_otorio
 
 docker build -t "$Name" .
