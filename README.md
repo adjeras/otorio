@@ -5,10 +5,10 @@ It's possible take a screenshot on a portrait web page.
 It's generally okay to have a fixed header, but a fixed footer will probably give you weird results.
 
 
-How To Install
-==============
+How To Download
+===============
 
-docker pull adjeras/docker_capture_web_otorio
+docker pull adjeras/docker_capture_web_otorio:latest
 
 
 How To Use
@@ -23,7 +23,7 @@ or
 ```bash
 ./capture <URL> <output_image.png> 
 
-If you choose not to specify the output_image name, an image nme will be created in the following format <domain><timestamp>.png
+If you choose not to specify the output_image name, an image nme will be created with the following format <domain><timestamp>.png
 ./capture <URL>
 
 ```
