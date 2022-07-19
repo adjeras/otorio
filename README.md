@@ -4,6 +4,9 @@ A Docker container that retrieves a screenshot image of the entire web page usin
 It's possible take a screenshot on a portrait web page.
 It's generally okay to have a fixed header, but a fixed footer will probably give you weird results.
 
+The base inage used is Linux Debian 10 (waffleimage/debian10)
+Python 3.7.3 is installed on for executing the Python script
+
 
 How To Download
 ===============
