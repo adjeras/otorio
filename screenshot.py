@@ -61,7 +61,7 @@ def capture_full_screenshot(url, filename, window_size=None, user_agent=None, wa
     :return:
     """
     options = webdriver.ChromeOptions()
-    options.set_headless()
+    options.headless = True
     options.add_argument('--no-sandbox')
     desired_capabilities = dict(acceptInsecureCerts=True)
     if user_agent:
